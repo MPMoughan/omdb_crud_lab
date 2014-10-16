@@ -1,9 +1,5 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Movie Search Results</title>
-  </head>
-  <body>
+<% include partials/header %>
+
     <ol>
       <!-- Loop over all the films in movieList -->
       <% movieList.forEach(function (film) {%>
@@ -22,5 +18,5 @@
       <!-- Close the `forEach` -->
       <% }) %>
     </ol>
-  </body>
-</html>
+
+<% include partials/footer %>
